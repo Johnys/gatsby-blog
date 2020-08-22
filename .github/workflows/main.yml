@@ -34,7 +34,7 @@ jobs:
         name: public-folder
         path: public
   deploy:
-    runs-on: unbutu-latest
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - uses: actions/download-artifact@v1
